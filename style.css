@@ -1,0 +1,31 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/3115500.jpg) ;
+    margin-top: 300px;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.key{
+ border: 5px solid rgb(223, 223, 10);
+ border-radius: 100px;
+ margin: 1rem;
+ font-size: 1.5rem;
+ padding: 0.2rem ;
+ transition: 0.01s;
+ width: 200px;
+ height: 200px;
+ text-align: center;
+ color: white;
+ background:rgba(1, 8, 18, 0.769);
+ text-shadow: 0 0 5px black;
+}
+
+
+.playing{
+    transform: scale(0.8);
+    border-color: rgb(253, 228, 0);
+    box-shadow: 0 0 80px rgb(252, 252, 2);
+}
